@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <!-- Nav-Bar -->
+    <header>
+        <h1>cryPIto</h1>
+        <nav>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="crypto.html">Mata Uang Kripto</a></li>
+                <li><a href="learn.html">Pelajari</a></li>
+                <li><a href="benefits.html">Manfaat</a></li>
+                <button><a href="signup.html">Daftar</a></button>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-crypto">
+        <h1>Mata Uang Kripto Populer</h1>
+        <p>Temukan informasi dasar tentang mata uang digital utama dunia.</p>
+    </div>
+
+    <section class="crypto-grid">
+        <div class="crypto-card">
+            <img src="Assets/th-removebg-preview.png" alt="Bitcoin">
+            <h3>Bitcoin (BTC)</h3>
+            <p>Mata uang kripto pertama dan paling populer sebagai penyimpan nilai digital.</p>
+        </div>
+
+        <div class="crypto-card">
+            <img src="Assets/ethereum-eth-logo-removebg-preview.png" alt="Ethereum">
+            <h3>Ethereum (ETH)</h3>
+            <p>Platform kontrak pintar terbesar dan pionir teknologi DeFi & NFT.</p>
+        </div>
+
+        <div class="crypto-card">
+            <img src="Assets/Solana-Logo-500x281-removebg-preview.png" alt="Solana">
+            <h3>Solana (SOL)</h3>
+            <p>Blockchain cepat dan murah, ideal untuk aplikasi terdesentralisasi.</p>
+        </div>
+
+        <div class="crypto-card">
+            <img src="Assets/cardano-ada-logo.svg" alt="Cardano">
+            <h3>Cardano (ADA)</h3>
+            <p>Proyek berbasis riset akademik dengan fokus pada skalabilitas dan keberlanjutan.</p>
+    </section>
+    </div>
+
+    <section class="market-section">
+        <h2>Semua Koin Di Pasar</h2>
+        <div class="market-list" id="marketContainer">
+        </div>
+    </section>
+
+</body>
+<script src="Script/cryptoData.js"></script>
+<script src="Script/dropdown.js"></script>
+</html>

@@ -32,6 +32,7 @@ header {
   display: none;
   font-size: 28px;
   color: white;
+  background-color: black;
   cursor: pointer;
 }
 

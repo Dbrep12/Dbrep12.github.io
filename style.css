@@ -136,6 +136,11 @@ nav ul li a:hover::after {
   transform: scale(1.05);
 }
 
+.btn-primary a {
+  color: white;
+  text-decoration: none;
+}
+
 .btn {
   margin-left: 10px;
   background-color: #121628;
@@ -634,6 +639,11 @@ form input[type="checkbox"] {
     font-size: 25px;
     border-radius: 20px;
     font-weight: bold;
+  }
+
+  .btn-primary a {
+    color: white;
+    text-decoration: none;
   }
 
   /* .nav-links {
